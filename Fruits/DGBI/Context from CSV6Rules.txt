@@ -1,0 +1,2 @@
+<6> Peut être cuisiné,Utilisé dans les desserts => Sucré
+<6> Acide,Peut être cuisiné => Riche en vitamine C

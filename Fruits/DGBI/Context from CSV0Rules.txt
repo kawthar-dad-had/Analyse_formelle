@@ -1,0 +1,2 @@
+<0> Tropical,Rouge,Sucré,Acide,Peut être cuisiné,Saison,Riche en vitamine C,Utilisé dans les desserts => Agrume
+<0> Tropical,Agrume,Sucré,Acide,Peut être cuisiné,Saison,Riche en vitamine C => Rouge,Utilisé dans les desserts

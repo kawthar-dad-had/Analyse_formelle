@@ -1,0 +1,11 @@
+Fruit;Tropical;Agrume;Rouge;Sucré;Acide;Peut être cuisiné;Saison;Riche en vitamine C;Utilisé dans les desserts
+Pomme;0;0;1;1;1;1;0;1;1
+Orange;0;1;0;1;1;1;1;1;0
+Banane;1;0;0;1;0;1;1;0;1
+Citron;0;1;0;0;1;1;0;1;0
+Mangue;1;0;1;1;0;1;1;1;1
+Fraise;0;0;1;1;0;1;1;1;1
+Kiwi;1;0;0;1;1;1;1;1;1
+Ananas;1;0;0;1;1;1;1;1;0
+Cerise;0;0;1;1;0;1;1;1;1
+Pamplemousse;0;1;0;0;1;1;0;1;0

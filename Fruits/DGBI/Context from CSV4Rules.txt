@@ -1,0 +1,2 @@
+<4> Rouge,Peut être cuisiné => Sucré,Riche en vitamine C,Utilisé dans les desserts
+<4> Tropical,Peut être cuisiné => Sucré,Saison

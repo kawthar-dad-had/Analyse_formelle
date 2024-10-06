@@ -1,0 +1,79 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,fillcolor=lightblue,label="{0 (I: 1, E: 8)|Peut être cuisiné\n|}"];
+1 [shape=record,style=filled,fillcolor=lightblue,label="{1 (I: 4, E: 4)|Tropical\n|}"];
+2 [shape=record,style=filled,fillcolor=lightblue,label="{2 (I: 9, E: 0)||}"];
+3 [shape=record,style=filled,label="{3 (I: 4, E: 2)|Agrume\n|Citron\n}"];
+4 [shape=record,style=filled,label="{4 (I: 7, E: 1)||Mangue\n}"];
+5 [shape=record,style=filled,fillcolor=lightblue,label="{5 (I: 5, E: 3)|Rouge\n|}"];
+6 [shape=record,style=filled,label="{6 (I: 6, E: 1)||Orange\n}"];
+7 [shape=record,style=filled,fillcolor=lightblue,label="{7 (I: 2, E: 7)|Sucré\n|}"];
+8 [shape=record,style=filled,label="{8 (I: 6, E: 2)||Ananas\n}"];
+9 [shape=record,style=filled,label="{9 (I: 6, E: 1)||Pomme\n}"];
+10 [shape=record,style=filled,fillcolor=lightblue,label="{10 (I: 4, E: 4)||}"];
+11 [shape=record,style=filled,fillcolor=lightblue,label="{11 (I: 3, E: 5)|Acide\n|}"];
+12 [shape=record,style=filled,label="{12 (I: 6, E: 2)||Fraise\n}"];
+13 [shape=record,style=filled,fillcolor=lightblue,label="{13 (I: 5, E: 3)||}"];
+14 [shape=record,style=filled,fillcolor=lightblue,label="{14 (I: 3, E: 6)|Saison\n|}"];
+15 [shape=record,style=filled,fillcolor=lightblue,label="{15 (I: 5, E: 3)||}"];
+16 [shape=record,style=filled,fillcolor=lightblue,label="{16 (I: 4, E: 5)||}"];
+17 [shape=record,style=filled,fillcolor=lightblue,label="{17 (I: 3, E: 6)||}"];
+18 [shape=record,style=filled,fillcolor=lightblue,label="{18 (I: 2, E: 7)|Riche en vitamine C\n|}"];
+19 [shape=record,style=filled,label="{19 (I: 7, E: 1)||Kiwi\n}"];
+20 [shape=record,style=filled,fillcolor=lightblue,label="{20 (I: 6, E: 2)||}"];
+21 [shape=record,style=filled,label="{21 (I: 5, E: 3)||Banane\n}"];
+22 [shape=record,style=filled,fillcolor=lightblue,label="{22 (I: 5, E: 3)||}"];
+23 [shape=record,style=filled,fillcolor=lightblue,label="{23 (I: 4, E: 4)||}"];
+24 [shape=record,style=filled,fillcolor=lightblue,label="{24 (I: 5, E: 2)||}"];
+25 [shape=record,style=filled,fillcolor=lightblue,label="{25 (I: 4, E: 4)||}"];
+26 [shape=record,style=filled,fillcolor=lightblue,label="{26 (I: 3, E: 5)|Utilisé dans les desserts\n|}"];
+	1 -> 14
+	2 -> 4
+	2 -> 6
+	2 -> 9
+	2 -> 19
+	3 -> 11
+	4 -> 12
+	4 -> 20
+	5 -> 25
+	6 -> 3
+	6 -> 13
+	7 -> 0
+	8 -> 13
+	8 -> 15
+	9 -> 5
+	9 -> 24
+	10 -> 11
+	10 -> 17
+	11 -> 18
+	12 -> 5
+	12 -> 22
+	13 -> 10
+	13 -> 16
+	14 -> 7
+	15 -> 1
+	15 -> 16
+	16 -> 14
+	16 -> 17
+	17 -> 7
+	17 -> 18
+	18 -> 0
+	19 -> 8
+	19 -> 20
+	19 -> 24
+	20 -> 15
+	20 -> 21
+	20 -> 22
+	21 -> 1
+	21 -> 23
+	22 -> 16
+	22 -> 23
+	22 -> 25
+	23 -> 14
+	23 -> 26
+	24 -> 10
+	24 -> 25
+	25 -> 17
+	25 -> 26
+	26 -> 7
+}

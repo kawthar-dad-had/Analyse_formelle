@@ -1,0 +1,42 @@
+digraph G { 
+	rankdir=BT;
+0 [shape=record,style=filled,label="{0 (I: 7, E: 1)||Mangue\n}"];
+1 [shape=record,style=filled,label="{1 (I: 7, E: 1)||Kiwi\n}"];
+2 [shape=record,style=filled,label="{2 (I: 6, E: 1)||Pomme\n}"];
+3 [shape=record,style=filled,label="{3 (I: 6, E: 1)||Orange\n}"];
+4 [shape=record,style=filled,label="{4 (I: 6, E: 2)||Fraise\n}"];
+5 [shape=record,style=filled,label="{5 (I: 6, E: 2)||Ananas\n}"];
+6 [shape=record,style=filled,label="{6 (I: 5, E: 3)||Banane\n}"];
+7 [shape=record,style=filled,fillcolor=lightblue,label="{7 (I: 5, E: 3)|Rouge\n|}"];
+8 [shape=record,style=filled,label="{8 (I: 4, E: 2)|Agrume\n|Citron\n}"];
+9 [shape=record,style=filled,fillcolor=lightblue,label="{9 (I: 4, E: 4)|Tropical\n|}"];
+10 [shape=record,style=filled,fillcolor=lightblue,label="{10 (I: 3, E: 6)|Saison\n|}"];
+11 [shape=record,style=filled,fillcolor=lightblue,label="{11 (I: 3, E: 5)|Acide\n|}"];
+12 [shape=record,style=filled,fillcolor=lightblue,label="{12 (I: 3, E: 5)|Utilisé dans les desserts\n|}"];
+13 [shape=record,style=filled,fillcolor=lightblue,label="{13 (I: 2, E: 7)|Sucré\n|}"];
+14 [shape=record,style=filled,fillcolor=lightblue,label="{14 (I: 2, E: 7)|Riche en vitamine C\n|}"];
+15 [shape=record,style=filled,fillcolor=lightblue,label="{15 (I: 1, E: 8)|Peut être cuisiné\n|}"];
+	0 -> 4
+	0 -> 6
+	1 -> 5
+	1 -> 6
+	2 -> 7
+	2 -> 11
+	3 -> 8
+	3 -> 10
+	4 -> 7
+	4 -> 10
+	5 -> 9
+	5 -> 11
+	6 -> 9
+	6 -> 12
+	7 -> 12
+	7 -> 14
+	8 -> 11
+	9 -> 10
+	10 -> 13
+	11 -> 14
+	12 -> 13
+	13 -> 15
+	14 -> 15
+}
